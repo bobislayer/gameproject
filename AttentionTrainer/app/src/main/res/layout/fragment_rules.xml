@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📖 Правила игры"
+        android:textColor="@color/text_primary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1️⃣  На экране появятся движущиеся фигуры — внимательно смотри!\n\n2️⃣  После таймера фигуры исчезнут. Введи, сколько было каждой фигуры.\n\n3️⃣  За правильный ответ — очки. С каждым уровнем фигур больше, а скорость выше.\n\n❌  3 ошибки — игра окончена.\n\n🏆  Пробуй побить свой рекорд!\n\n📊  Уровни сложности:\n• Уровень 1: 5 фигур, 2 вида\n• Уровень 2: 8 фигур, 3 вида\n• Уровень 3: 12 фигур, 4 вида\n• Уровень 4: 15 фигур, 5 видов\n• Уровень 5+: 18 фигур, 6 видов"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp"
+        android:lineSpacingMultiplier="1.4"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="◀  Назад"
+        android:backgroundTint="@color/bg_card"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp" />
+
+</LinearLayout>
